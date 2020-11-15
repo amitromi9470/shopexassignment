@@ -1,0 +1,26 @@
+.taskInput {
+  padding: 20px;
+  border-bottom: 4px solid beige;
+}
+
+.addButton {
+  display: inline;
+  padding: 2px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.addButton:active {
+  background-color: gray;
+}
+
+.enterTask {
+  height: 30px;
+  margin-left: 10px;
+  border: 0;
+}
+
+.enterTask:focus {
+  outline: none;
+}

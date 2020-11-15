@@ -1,0 +1,26 @@
+.tasks {
+  padding: 20px;
+  border-bottom: 2px solid beige;
+}
+
+.taskName .strikeTask {
+  padding-left: 10px;
+}
+
+.strikeTask {
+  text-decoration: line-through;
+}
+
+.taskFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.crossButton {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.crossButton:hover {
+  color: black;
+}
